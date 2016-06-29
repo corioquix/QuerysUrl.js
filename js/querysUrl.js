@@ -26,8 +26,7 @@ var querysUrl = {
   },
 
   get: function(fn){
-    var _this = this,
-    _arr = [];
+    var _this = this;
     _this.init();
     fn(_this.arr);
   }
